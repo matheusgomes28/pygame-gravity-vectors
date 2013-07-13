@@ -25,14 +25,6 @@ METRES = 200 # 200 pixels == 1 metres
 friction = 3
 is_vert_rest = False
 
-def detect_collision(ball_center, rec_direction, rec_range):
-  """Advanced collision detection, uses vectors in order
-	to triangulate positions and distances."""
-
-	pass
-
-
-
 def main():
 	""" Main program precedure. This function contains
 	the game loop."""
